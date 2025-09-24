@@ -29,7 +29,12 @@ for (let i = 0; i < users.length ; i++) {
 console.log(usernames) ;
 
 //etape2
+let usernames = []; 
+for (let i = 0; i < users.length ; i++) {
+  usernames.push(users[i].name);
+}
 
+console.log(usernames) ;
 
 
 //etape3
